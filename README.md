@@ -31,54 +31,7 @@ If a input is invalid ie. it's not possible to move the character to the desired
 
 After every input display a simple 5*5 matrix with each character. Use A- or B- as prefix to indicate which player's character it is. (Use tab as space)
 
-Example:
-Player1 Input: P3, P2, P5, P4, P1
-Printed matrix:
--		-		-		-		-
--		-		-		-		-
--		-		-		-		-
--		-		-		-		-
-A-P3	A-P2	A-P5	A-P4	A-P1
 
-Player2 Input: P2, P1, P3, P5, P4
-Printed matrix:
-B-P2	B-P1	B-P3	B-P5	B-P4
--		-		-		-		-
--		-		-		-		-
--		-		-		-		-
-A-P3	A-P2	A-P5	A-P4	A-P1
-
-Player1 Move: P1:F
-Printed matrix:
-B-P2	B-P1	B-P3	B-P5	B-P4
--		-		-		-		-
--		-		-		-		-
--		-		-		-		A-P1
-A-P3	A-P2	A-P5	A-P4	-
-
-Player2 Move: P4:F
-Printed matrix:
-B-P2	B-P1	B-P3	B-P5	-
--		-		-		-		B-P4
--		-		-		-		-
--		-		-		-		A-P1
-A-P3	A-P2	A-P5	A-P4	-
-
-Player2 Move: P1:F
-Printed matrix:
-B-P2	B-P1	B-P3	B-P5	-
--		-		-		-		B-P4
--		-		-		-		A-P1
--		-		-		-		-
-A-P3	A-P2	A-P5	A-P4	-
-
-Player2 Move: P4:F
-Printed matrix:
-B-P2	B-P1	B-P3	B-P5	-
--		-		-		-		-
--		-		-		-		B-P4
--		-		-		-		-
-A-P3	A-P2	A-P5	A-P4	-
 
 Let the game run until all characters of one player have died. And declare the other player as the winner.
 
